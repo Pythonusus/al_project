@@ -36,23 +36,34 @@ body {
 
 header {
   border: 1px solid #000; /*Удалить позже, используется для удобства разработки страницы*/
-  padding: 5px;
+  margin: auto;
+  box-sizing: border-box;
+  width: 100%;
+  flex-basis: 1;
+  flex-grow: 10;
 }
 
 .question {
   margin: auto;
+  text-align: center;
   border: 1px solid red; /*Удалить позже, используется для удобства разработки страницы*/
 }
 
 main {
   margin: auto;
   border: 2px solid green; /*Удалить позже, используется для удобства разработки страницы*/
-  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  flex-basis: 1;
+  flex-grow: 80;
 }
 
 .advice {
   border: 1px solid red; /*Удалить позже, используется для удобства разработки страницы*/
-  padding: 10px;
+  padding: 20px;
+  margin-top: 15%;
+  font-size: 40px; /*Высота шрифта*/
+  line-height: 1.2;
 }
 
 .image {
@@ -60,16 +71,38 @@ main {
   margin: auto;
   font-size: 10px;
   font-weight: 300;
+  max-width: 680px;
+  max-height: 680px;
   border: 1px solid yellow; /*Удалить позже, используется для удобства разработки страницы*/
 }
 
 .button {
-  border: 1px solid #000; /*Удалить позже, используется для удобства разработки страницы*/
+  box-sizing: border-box;
+  border: 1px solid white;
+  margin: 5% auto;
+  padding: 8px 5px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+footer {
+  box-sizing: border-box;
+  flex-basis: 1;
+  flex-grow: 1;
+  border: 1px solid rgb(14, 174, 202); /*Удалить позже, используется для удобства разработки страницы*/
 }
 
 footer p {
-  font-size: 16px;
+  box-sizing: border-box;
   margin: auto;
+  font-size: 16px;
   text-align: center;
   border: 1px solid yellow; /*Удалить позже, используется для удобства разработки страницы*/
 }
