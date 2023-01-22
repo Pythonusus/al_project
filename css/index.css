@@ -30,13 +30,15 @@ body {
   margin: auto; /*Выравнивает весь контент по середине экрана*/
   box-sizing: border-box; /*Ширина и высота элементов задается по внешним отступам, а не по контенту*/
   padding: 12px; /*Задаем внутренние оступы, чтобы контент не'прилипал' к краям страницы*/
-  border: 4px solid red; /*Удалить позже, используется для удобства разработки страницы*/
+  border: 0px solid red; /*Удалить позже, используется для удобства разработки страницы*/
   background-color: #323131; /*Задаем цвет фона элемента. Почему-то задает фон для всего экрана, а не только для блока body*/
 }
 
 header {
-  border: 1px solid #000; /*Удалить позже, используется для удобства разработки страницы*/
+  border: 0px solid #000; /*Удалить позже, используется для удобства разработки страницы*/
+  font-size: 32px;
   margin: auto;
+  text-align: center;
   box-sizing: border-box;
   width: 100%;
   flex-basis: 1;
@@ -44,14 +46,12 @@ header {
 }
 
 .question {
-  margin: auto;
-  text-align: center;
-  border: 1px solid red; /*Удалить позже, используется для удобства разработки страницы*/
+  border: 0px solid red; /*Удалить позже, используется для удобства разработки страницы*/
 }
 
 main {
   margin: auto;
-  border: 2px solid green; /*Удалить позже, используется для удобства разработки страницы*/
+  border: 0px solid green; /*Удалить позже, используется для удобства разработки страницы*/
   box-sizing: border-box;
   width: 100%;
   flex-basis: 1;
@@ -59,21 +59,25 @@ main {
 }
 
 .advice {
-  border: 1px solid red; /*Удалить позже, используется для удобства разработки страницы*/
+  border: 0px solid red; /*Удалить позже, используется для удобства разработки страницы*/
   padding: 20px;
-  margin-top: 15%;
+  margin-top: 5%;
   font-size: 40px; /*Высота шрифта*/
   line-height: 1.2;
 }
 
 .image {
   display: block;
-  margin: auto;
+  margin: 30px auto;
   font-size: 10px;
   font-weight: 300;
   max-width: 680px;
   max-height: 680px;
-  border: 1px solid yellow; /*Удалить позже, используется для удобства разработки страницы*/
+  border: 3px solid whitesmoke; /*Удалить позже, используется для удобства разработки страницы*/
+}
+
+.text-content {
+  margin: auto;
 }
 
 .button {
@@ -96,7 +100,7 @@ footer {
   box-sizing: border-box;
   flex-basis: 1;
   flex-grow: 1;
-  border: 1px solid rgb(14, 174, 202); /*Удалить позже, используется для удобства разработки страницы*/
+  border: 0px solid rgb(14, 174, 202); /*Удалить позже, используется для удобства разработки страницы*/
 }
 
 footer p {
@@ -104,5 +108,5 @@ footer p {
   margin: auto;
   font-size: 16px;
   text-align: center;
-  border: 1px solid yellow; /*Удалить позже, используется для удобства разработки страницы*/
+  border: 0px solid yellow; /*Удалить позже, используется для удобства разработки страницы*/
 }
