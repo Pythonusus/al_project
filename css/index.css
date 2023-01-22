@@ -1,3 +1,4 @@
+/*Нужно тут еще много в чем разобраться...*/
 html {
   /*
   Настраиваем шрифт для всей страницы.
@@ -33,7 +34,7 @@ body {
   flex-direction: column; /*Выбираем направление главной оси flexbox сверху вниз*/
   margin: auto; /*Выравнивает весь контент по середине экрана*/
   box-sizing: border-box; /*Ширина и высота элементов задается по внешним отступам, а не по контенту*/
-  padding: 12px; /*Задаем внутренние оступы, чтобы контент не'прилипал' к краям страницы*/
+  padding: 10px; /*Задаем внутренние оступы, чтобы контент не'прилипал' к краям страницы*/
   border: 0px solid white; /*Удалить позже, используется для удобства разработки страницы*/
   background-color: #323131; /*Задаем цвет фона элемента. Почему-то задает фон для всего экрана, а не только для блока body*/
 }
@@ -65,8 +66,6 @@ main {
 
 .advice {
   border: 0px solid red; /*Удалить позже, используется для удобства разработки страницы*/
-  padding: 20px;
-  margin-top: 5%;
   font-size: 40px; /*Высота шрифта*/
   line-height: 1.2;
 }
@@ -76,16 +75,17 @@ main {
   box-sizing: border-box;
   max-width: 100%;
   max-height: 50vh;
-  margin: 30px auto;
+  margin: auto;
   font-size: 10px;
   font-weight: 300;
-  border: 2px solid whitesmoke; /*Удалить позже, используется для удобства разработки страницы*/
+  border: 2px solid whitesmoke;
 }
 
 .text-content {
-  margin: auto;
+  margin: 10px auto;
 }
 
+/*Сделать так, чтобы кнопка всегда оставалась на одном и том же месте, чтобы было удобно кликать*/
 .button {
   box-sizing: border-box;
   border: 1px solid white;
